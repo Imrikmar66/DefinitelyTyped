@@ -502,6 +502,7 @@ declare namespace Chart {
         cubicInterpolationMode?: 'default' | 'monotone';
         backgroundColor?: ChartColor | ChartColor[];
         borderWidth?: number | number[];
+        borderAlign?: 'center' | 'inner';
         borderColor?: ChartColor | ChartColor[];
         borderCapStyle?: 'butt' | 'round' | 'square';
         borderDash?: number[];
